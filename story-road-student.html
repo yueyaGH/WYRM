@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en" data-page-node-id="7XcYOi1baqo5qrrwmbVkqp">
+<head data-page-node-id="cQAPAFWq9JdtKbtvUmEArI">
+  <meta charset="utf-8" data-page-node-id="GotQtYsg1FsTNYlQFRBNcp">
+  <meta name="viewport" content="width=device-width, initial-scale=1" data-page-node-id="vP2e4gvj0PepICAhcCTEWJ">
+  <title>When You Reach Me · Story Road</title>
+  <style>
+    :root {
+      --ink: #17191d;
+      --paper: #fffdf8;
+      --quiet: #6b6c70;
+      --line: #d4d2ca;
+      --blue: #4568a8;
+      --yellow: #f2c63c;
+      --note: #fff8dc;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #ece9e1; color: var(--ink); font-family: Arial, "Microsoft YaHei", sans-serif; }
+    .sheet { width: min(1120px, calc(100% - 32px)); min-height: 100vh; margin: 0 auto; padding: 42px 52px 74px; background: var(--paper); }
+    .book { margin: 0 0 7px; color: var(--blue); font-size: 13px; font-weight: 700; letter-spacing: 1.2px; }
+    header { padding-bottom: 18px; border-bottom: 3px solid var(--ink); }
+    h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(34px, 5vw, 53px); line-height: .95; letter-spacing: -.7px; }
+    .instruction { max-width: 680px; margin: 11px 0 0; color: var(--quiet); font-size: 15px; line-height: 1.5; }
+    .published-meta { margin: 10px 0 0; color: var(--quiet); font-size: 12px; }
+    .published-meta strong { color: var(--ink); }
+    .road-head { display: grid; grid-template-columns: 52px minmax(0, 60fr) minmax(205px, 35fr); gap: 18px; align-items: end; margin-top: 30px; padding-bottom: 9px; border-bottom: 1px solid var(--line); }
+    .road-head span { color: var(--quiet); font-size: 12px; font-weight: 700; letter-spacing: .8px; text-transform: uppercase; }
+    .road-head .notes-heading { color: #806407; }
+    #events { position: relative; }
+    #events::before { content: ""; position: absolute; left: 25px; top: 0; bottom: 0; width: 2px; background: var(--blue); }
+    .event-row { position: relative; display: grid; grid-template-columns: 52px minmax(0, 60fr) minmax(205px, 35fr); gap: 18px; padding: 20px 0 16px; }
+    .node { position: relative; z-index: 1; display: flex; width: 26px; height: 26px; margin: 9px auto 0; align-items: center; justify-content: center; border: 3px solid var(--paper); border-radius: 50%; background: var(--blue); box-shadow: 0 0 0 1px var(--blue); color: #fff; font-size: 11px; font-weight: 700; line-height: 1; }
+    .event-cell { padding: 9px 12px 13px; }
+    .event-meta { display: flex; flex-wrap: wrap; gap: 4px 18px; margin-bottom: 8px; }
+    .event-meta-label { color: var(--quiet); font-size: 12px; font-weight: 700; letter-spacing: .4px; }
+    .event-meta-value { color: var(--ink); font-size: 14px; }
+    .event-body { white-space: pre-wrap; font-size: 16px; line-height: 1.55; color: var(--ink); }
+    .event-body:empty::before { content: "(no event text)"; color: var(--quiet); font-style: italic; }
+    .note-card { background: var(--note); border: 1px solid #ddc75d; border-left: 4px solid var(--yellow); border-radius: 2px; padding: 14px 14px 14px 16px; white-space: pre-wrap; font-size: 15px; line-height: 1.55; }
+    .note-card:empty::before { content: "(no important information)"; color: var(--quiet); font-style: italic; }
+    .empty { margin: 40px 0 0 70px; max-width: 500px; padding: 18px 20px; border-left: 4px solid var(--yellow); background: #fff9e9; color: var(--quiet); }
+    .footnote { margin: 28px 0 0 70px; color: var(--quiet); font-size: 13px; line-height: 1.5; }
+    .loading, .error { margin: 40px 0 0 70px; max-width: 560px; padding: 18px 20px; border-left: 4px solid var(--yellow); background: #fff9e9; color: var(--quiet); }
+    .error { border-left-color: #8d4444; background: #fff0f0; }
+    @media (max-width: 760px) {
+      .sheet { width: 100%; padding: 28px 18px 50px; }
+      .road-head { grid-template-columns: 34px 1fr; gap: 10px; }
+      .road-head .notes-heading { display: none; }
+      #events::before { left: 16px; }
+      .event-row { grid-template-columns: 34px 1fr; gap: 10px; padding-bottom: 8px; }
+      .note-card { grid-column: 2; }
+      .empty, .footnote, .loading, .error { margin-left: 44px; }
+    }
+  </style>
+</head>
+<body data-page-node-id="ZfrY5LrTfjvBrF2jPr42di">
+  <main class="sheet" data-page-node-id="pnYTM7pPxHpd7wpOfaBVuK">
+    <p class="book" data-page-node-id="ojHmSdhOU9KQHmxmxIiscm">WHEN YOU REACH ME</p>
+    <header data-page-node-id="dyJNaa5IJWRHsxaXEe9QB7">
+      <h1 data-page-node-id="y5otocBrmNKbu8k2joAqLG">Story Road</h1>
+      <p class="instruction" data-page-node-id="SnkiRls9Ml5MnhfRc4iWv9">Put events in the order they happened. Note down important information.</p>
+      <p class="published-meta" id="published-meta" hidden data-page-node-id="aySMqoiqD6wOAiDmyZF51u"></p>
+    </header>
+
+    <div class="road-head" aria-hidden="true" data-page-node-id="aQKl1EknSxkOgwl86TavSE">
+      <span data-page-node-id="BzlcEBBjKQ7nAcobjMz2wk"></span>
+      <span data-page-node-id="Rn3S9JptGY0ZnmPsirQN3a">Events</span>
+      <span class="notes-heading" data-page-node-id="pq2P4UThBbYWNd77KZIXwV">Important information</span>
+    </div>
+
+    <section id="events" aria-label="Story events in chronological order" data-page-node-id="fIln5huuavEqsc1p2f3xmi"></section>
+    <div id="loading" class="loading" data-page-node-id="nfKDsg4uCFFcPRKsHXGWkJ">Loading the latest story road…</div>
+    <div id="error" class="error" hidden data-page-node-id="vYH6KTKOh8U6fyzse85VFO"></div>
+    <div id="empty" class="empty" hidden data-page-node-id="MAHFiZErorFuahF12H4LOD">The teacher has not published a story road yet. Please check back soon.</div>
+    <p class="footnote" data-page-node-id="7vVUmRvy1lcEdIpNYEEhln">The order on the road shows time. Write dates, chapter numbers, places, or questions only when they help you.</p>
+  </main>
+
+  <script>
+    const eventsEl = document.getElementById('events');
+    const loadingEl = document.getElementById('loading');
+    const errorEl = document.getElementById('error');
+    const emptyEl = document.getElementById('empty');
+    const metaEl = document.getElementById('published-meta');
+
+    function escapeHtml(text) {
+      return String(text ?? '').replace(/[&<>"']/g, (c) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[c]));
+    }
+
+    function renderEvent(item, index) {
+      const article = document.createElement('article');
+      article.className = 'event-row';
+
+      // Number dot
+      const node = document.createElement('div');
+      node.className = 'node';
+      node.textContent = index + 1;
+      node.setAttribute('aria-label', `Event ${index + 1}`);
+      article.append(node);
+
+      // Event card (middle)
+      const cell = document.createElement('div');
+      cell.className = 'event-cell';
+
+      const meta = document.createElement('div');
+      meta.className = 'event-meta';
+      const metaParts = [
+        ['Ch.', item.chapter],
+        ['When/Where', item.time],
+        ['Who', item.who]
+      ];
+      for (const [label, value] of metaParts) {
+        const wrap = document.createElement('span');
+        const lab = document.createElement('span');
+        lab.className = 'event-meta-label';
+        lab.textContent = label + ' ';
+        wrap.append(lab);
+        const val = document.createElement('span');
+        val.className = 'event-meta-value';
+        val.textContent = value && value.length ? value : '—';
+        wrap.append(val);
+        meta.append(wrap);
+      }
+      cell.append(meta);
+
+      const body = document.createElement('div');
+      body.className = 'event-body';
+      body.textContent = item.event || '';
+      cell.append(body);
+
+      article.append(cell);
+
+      // Important information card (right) — only if note present
+      if (item.note && item.note.trim()) {
+        const note = document.createElement('div');
+        note.className = 'note-card';
+        note.textContent = item.note;
+        article.append(note);
+      }
+
+      return article;
+    }
+
+    function render(data) {
+      eventsEl.innerHTML = '';
+      const events = Array.isArray(data?.events) ? data.events : [];
+      if (events.length === 0) {
+        emptyEl.hidden = false;
+        return;
+      }
+      emptyEl.hidden = true;
+      events.forEach((item, i) => {
+        eventsEl.append(renderEvent(item, i));
+      });
+      if (data?.publishedAt) {
+        const d = new Date(data.publishedAt);
+        if (!isNaN(d)) {
+          metaEl.innerHTML = 'Last updated <strong>' + escapeHtml(d.toLocaleString()) + '</strong>';
+          metaEl.hidden = false;
+        }
+      }
+    }
+
+    function showError(message) {
+      loadingEl.hidden = true;
+      emptyEl.hidden = true;
+      errorEl.textContent = message;
+      errorEl.hidden = false;
+    }
+
+    async function load() {
+      try {
+        const res = await fetch('published.json', { cache: 'no-cache' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        loadingEl.hidden = true;
+        render(data);
+      } catch (error) {
+        showError('Could not load the story road right now. (' + error.message + ')');
+      }
+    }
+
+    load();
+  </script>
+</body>
+</html>
