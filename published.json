@@ -1,69 +1,93 @@
 {
-  "publishedAt": "2026-09-28T14:05:35.339Z",
+  "publishedAt": "2026-10-12T10:26:00.141Z",
   "events": [
     {
       "number": 1,
       "chapter": "4",
       "time": "12 years ago/their apartment",
       "who": "Mom, Mira, Louisa, Sal",
-      "event": "Mom and Miranda moved to the apartemnt. Mom cleaned the room.\nThey met Louisa and Sal at the garbage can.",
-      "note": ""
+      "event": "Mom and Miranda moved into the apartment. Mom cleaned the room.\nThey met Louisa and Sal by the garbage can.",
+      "note": "1. Miranda asked her mom to tell the story again and again. \n2. Sal stopped crying the moment he saw Miranda. \n3. The apartment was filthy, worn, and old."
     },
     {
       "number": 2,
-      "chapter": "1",
-      "time": "Home/April. 6th 1979",
-      "who": "Mom, Miranda",
-      "event": "Mom gets the postcard for the 20000 pyramid.\nMiranda is supposed to write a letter to tell the true story to You.",
-      "note": "1.Her friend -You- could tell the future.\nYou sent Miranda some notes.\nShe might not write the letter because \"You\" are gone and there is no one to give it to.\nglossy red hair, tiny woman"
+      "chapter": "5",
+      "time": "before Sal was punched",
+      "who": "Mira, Sal",
+      "event": "Mira and Sal used to be close friends who seemed to be part of each other.",
+      "note": ""
     },
     {
       "number": 3,
-      "chapter": "2",
-      "time": "Home/after mom got Postcard",
-      "who": "Mom, Miranda",
-      "event": "Miranda is helping mom prepare for the contest.",
-      "note": "Mom has a boyfriend named Richard.\nMom has been in relationship with Richard for almost two years.\nRichard doesn't have a key to their home. Richard thinks keys are power.\nRichard is a handsome/tucked-in man.——Mr. Perfect"
+      "chapter": "5",
+      "time": "last September, on their corner",
+      "who": "L-man, Sal, Mira",
+      "event": "Mira and Sal saw a strange man who had shown up on their corner. (Mom told Mira not to call him Quack, so Mira called him the laughing man.)",
+      "note": "1. Mira and Sal were scared, but they pretended not to be.  \n2. The laughing man slept under a mailbox. He chanted “Bookbag, Pocketshoe.” He hit his head with his fists. Maybe he was insane."
     },
     {
       "number": 4,
-      "chapter": "3",
-      "time": "Belle's Market",
-      "who": "Belle, Miranda, Mom",
-      "event": "She left her keys at school and waited for her mom at Belle's Market.\nBella and she talked about a book.(Meg)",
-      "note": "Really: Mom hides the truth of Miranda's name."
+      "chapter": "5",
+      "time": "Home",
+      "who": "Richard, Mira",
+      "event": "Mira questioned Richard about the strange things the laughing man did, but Richard couldn't explain them clearly.",
+      "note": ""
     },
     {
       "number": 5,
-      "chapter": "3",
-      "time": "On the way home",
-      "who": "Mom&Miranda",
-      "event": "Miranda's mom and she discussed the origin of her name.",
-      "note": "Robbie B is Miranda's schoolmate. His father is a prosecutor公诉人. \nShakespear created the name-wanted Miranda to possess the personalities of humanism&compassion同情心; The name stands for people's rights; Miranda's warnings——stands for people's rights."
+      "chapter": "1",
+      "time": "Home/April 6, 1979",
+      "who": "Mom, Miranda",
+      "event": "Mom got the postcard for the $20,000 Pyramid.\nMiranda is supposed to write a letter to tell the true story to “You\", who is already gone.",
+      "note": "1. Her friend, “You,” could tell the future.\n“You” sent Miranda some notes.\nShe might not write the letter because “You” are gone and there is no one to give it to.\nGlossy red hair; a tiny woman."
     },
     {
       "number": 6,
-      "chapter": "3",
-      "time": "In the stairwell",
+      "chapter": "2",
+      "time": "Home/after Mom got the postcard",
       "who": "Mom, Miranda",
-      "event": "They hid a key in the nozzel of the fire hose.",
-      "note": "You asked me to mention the key. \nWhich I probably won't-Infer: You are dead. 20%Miranda will write the letter-Why does Miranda still think she may write the letter? ——\nMiranda will tell the location of the key in the letter if she ever (at any time) writes the letter."
+      "event": "Miranda is helping Mom prepare for the contest. (Richard will come to help, too.)",
+      "note": "Mom has a boyfriend named Richard.\nMom has been in a relationship with Richard for almost two years.\nRichard doesn't have a key to their home. Richard thinks keys are powerful.\nRichard is a handsome/tucked-in man.——Mr. Perfect"
     },
     {
       "number": 7,
-      "chapter": "4",
-      "time": "home",
-      "who": "old folks, Lousia,mom,Mira",
-      "event": "They had a tenant meeting.",
-      "note": "The rules of Speed Round\ntenant-meeting night-once a month-the old folks/Lousia comes out of loyalty to Mom.\nMom is practicing Speed Round.\npoor living conditions"
+      "chapter": "3",
+      "time": "Belle's Market",
+      "who": "Belle, Miranda, Mom",
+      "event": "Miranda had left her keys at school and waited for her mom at Belle's Market.\nBelle and Miranda talked about a book (Meg).",
+      "note": ""
     },
     {
       "number": 8,
-      "chapter": "",
-      "time": "",
-      "who": "",
-      "event": "",
-      "note": ""
+      "chapter": "3",
+      "time": "On the way home",
+      "who": "Mom, Miranda",
+      "event": "Miranda and her mom discussed the origin of Miranda's name.",
+      "note": "Robbie B. is Miranda's schoolmate. His father is a prosecutor.\nShakespeare created the name Miranda. Mom wanted Miranda to have qualities such as humanism and compassion. The name stands for people's rights. The Miranda warnings stand for people's rights."
+    },
+    {
+      "number": 9,
+      "chapter": "3",
+      "time": "In the stairwell",
+      "who": "Mom, Miranda",
+      "event": "They hid a key in the nozzle of the fire hose.",
+      "note": "“You” asked me to mention the key, which I probably won't.\nInference: “You” are dead.\nThere is a 20% chance Miranda will write the letter. Why does Miranda still think she may write it?\nIf Miranda ever writes the letter, she will tell “You” where the key is."
+    },
+    {
+      "number": 10,
+      "chapter": "4",
+      "time": "home",
+      "who": "Old folks, Lou, Mom, Mira",
+      "event": "They have a tenant meeting.",
+      "note": "The rules of the Speed Round.\nTenant-meeting night—once a month—the old folks and Louisa come out of loyalty to Mom.\nMom is practicing for the Speed Round.\nPoor living conditions."
+    },
+    {
+      "number": 11,
+      "chapter": "6",
+      "time": "Tonight, Home",
+      "who": "Mira, Richard, Mom",
+      "event": "Mom and Richard are practicing. Mira is trying to figure out what “You” wanted.",
+      "note": "Mira is not sure what the true story is. But she thinks the whole ture story began the day Sal got punched."
     }
   ]
 }
