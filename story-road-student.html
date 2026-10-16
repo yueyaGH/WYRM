@@ -40,6 +40,12 @@
     .note-card:empty::before { content: "(no important information)"; color: var(--quiet); font-style: italic; }
     .empty { margin: 40px 0 0 70px; max-width: 500px; padding: 18px 20px; border-left: 4px solid var(--yellow); background: #fff9e9; color: var(--quiet); }
     .footnote { margin: 28px 0 0 70px; color: var(--quiet); font-size: 13px; line-height: 1.5; }
+    .vocabulary-module { margin: 48px 0 0 70px; padding-top: 22px; border-top: 3px solid var(--ink); }
+    .vocabulary-grid { display: grid; grid-template-columns: 1fr; gap: 9px; }
+    .vocabulary-chapter { display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 12px; align-items: start; padding: 10px 12px; border: 1px solid var(--line); background: #fff; }
+    .vocabulary-chapter h3 { margin: 0; color: var(--blue); font: 700 16px/1.4 Arial, "Microsoft YaHei", sans-serif; }
+    .vocabulary-words { display: flex; flex-wrap: wrap; gap: 7px; }
+    .vocabulary-word { padding: 4px 8px; border: 1px solid #e2e0d8; border-radius: 2px; background: #faf9f5; font-size: 13px; line-height: 1.25; }
     .loading, .error { margin: 40px 0 0 70px; max-width: 560px; padding: 18px 20px; border-left: 4px solid var(--yellow); background: #fff9e9; color: var(--quiet); }
     .error { border-left-color: #8d4444; background: #fff0f0; }
     @media (max-width: 760px) {
@@ -49,7 +55,11 @@
       #events::before { left: 16px; }
       .event-row { grid-template-columns: 34px 1fr; gap: 10px; padding-bottom: 8px; }
       .note-card { grid-column: 2; }
-      .empty, .footnote, .loading, .error { margin-left: 44px; }
+      .empty, .footnote, .vocabulary-module, .loading, .error { margin-left: 44px; }
+      .vocabulary-chapter { grid-template-columns: 45px minmax(0, 1fr); gap: 8px; padding: 9px; }
+    }
+    @media (max-width: 500px) {
+      .vocabulary-chapter { grid-template-columns: 1fr; gap: 5px; }
     }
   </style>
 </head>
@@ -73,6 +83,38 @@
     <div id="error" class="error" hidden data-page-node-id="vYH6KTKOh8U6fyzse85VFO"></div>
     <div id="empty" class="empty" hidden data-page-node-id="MAHFiZErorFuahF12H4LOD">The teacher has not published a story road yet. Please check back soon.</div>
     <p class="footnote" data-page-node-id="7vVUmRvy1lcEdIpNYEEhln">The order on the road shows time. Write dates, chapter numbers, places, or questions only when they help you.</p>
+
+    <section class="vocabulary-module" aria-label="Chapter vocabulary lists">
+      <div class="vocabulary-grid">
+        <article class="vocabulary-chapter"><h3>Ch1</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">contestant</span><span class="vocabulary-word">barrette</span><span class="vocabulary-word">optional</span><span class="vocabulary-word">glossy</span><span class="vocabulary-word">obstruct</span><span class="vocabulary-word">scrawl</span><span class="vocabulary-word">proof</span><span class="vocabulary-word">nag</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch2</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">swipe</span><span class="vocabulary-word">supply</span><span class="vocabulary-word">omen</span><span class="vocabulary-word">expression</span><span class="vocabulary-word">budget</span><span class="vocabulary-word">tucked-in</span><span class="vocabulary-word">limp</span><span class="vocabulary-word">grateful</span><span class="vocabulary-word">index</span><span class="vocabulary-word">lob</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch3</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">criminal</span><span class="vocabulary-word">dramatic</span><span class="vocabulary-word">omen</span><span class="vocabulary-word">beat-up</span><span class="vocabulary-word">judge</span><span class="vocabulary-word">classic</span><span class="vocabulary-word">scene</span><span class="vocabulary-word">nasal</span><span class="vocabulary-word">sneak</span><span class="vocabulary-word">owe</span><span class="vocabulary-word">repulsive</span><span class="vocabulary-word">burden</span><span class="vocabulary-word">expire</span><span class="vocabulary-word">item</span><span class="vocabulary-word">fumble</span><span class="vocabulary-word">prosecutor</span><span class="vocabulary-word">commit</span><span class="vocabulary-word">technically</span><span class="vocabulary-word">paralegal</span><span class="vocabulary-word">receptionist</span><span class="vocabulary-word">secretary</span><span class="vocabulary-word">lobby</span><span class="vocabulary-word">tile</span><span class="vocabulary-word">hassle</span><span class="vocabulary-word">polish</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch4</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">contestant</span><span class="vocabulary-word">celebrity</span><span class="vocabulary-word">swivel</span><span class="vocabulary-word">bonus</span><span class="vocabulary-word">tenant</span><span class="vocabulary-word">agency</span><span class="vocabulary-word">loyalty</span><span class="vocabulary-word">possessed</span><span class="vocabulary-word">elastic</span><span class="vocabulary-word">practically</span><span class="vocabulary-word">smear</span><span class="vocabulary-word">drape</span><span class="vocabulary-word">snuggle</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch5</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">punt</span><span class="vocabulary-word">freak</span><span class="vocabulary-word">expression</span><span class="vocabulary-word">sample</span><span class="vocabulary-word">spot</span><span class="vocabulary-word">mumble</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch6</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">tangle</span><span class="vocabulary-word">hitch</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch7</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">stain</span><span class="vocabulary-word">slant</span><span class="vocabulary-word">make a deal out of</span><span class="vocabulary-word">stagger</span><span class="vocabulary-word">call someone's names</span><span class="vocabulary-word">theory</span><span class="vocabulary-word">stretch</span><span class="vocabulary-word">semipolite</span><span class="vocabulary-word">motion</span><span class="vocabulary-word">slam</span><span class="vocabulary-word">salute</span><span class="vocabulary-word">hunch</span><span class="vocabulary-word">cuff</span><span class="vocabulary-word">gag</span><span class="vocabulary-word">take off doing</span><span class="vocabulary-word">turn away</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch8</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">mug</span><span class="vocabulary-word">like gangbusters</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch9</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">peel off</span><span class="vocabulary-word">nonexistent</span><span class="vocabulary-word">grudge</span><span class="vocabulary-word">blame</span><span class="vocabulary-word">spare</span><span class="vocabulary-word">scribble</span><span class="vocabulary-word">official</span>
+        </div></article>
+      </div>
+    </section>
   </main>
 
   <script>
