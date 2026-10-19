@@ -1,5 +1,5 @@
 {
-  "publishedAt": "2026-10-16T16:44:20.264Z",
+  "publishedAt": "2026-10-19T10:18:54.010Z",
   "events": [
     {
       "number": 1,
@@ -12,61 +12,29 @@
     {
       "number": 2,
       "chapter": "5",
-      "time": "before Sal was punched",
+      "time": "Before Sal was punched",
       "who": "Mira, Sal",
-      "event": "close friends · always together（examples）",
+      "event": "used to be close friends · always together（examples）",
       "note": ""
     },
     {
       "number": 3,
-      "chapter": "5",
-      "time": "last September, on their corner",
-      "who": "L-man, Sal, Mira",
-      "event": "strange man appeared· kids: Quack / Kicker · Mom: “the laughing man”",
-      "note": "1. Mira and Sal were scared, but they pretended not to be.  \n2. The laughing man slept under a mailbox. He chanted “Bookbag, Pocketshoe.” He hit his head with his fists. Maybe he was insane."
+      "chapter": "3",
+      "time": "Belle's market",
+      "who": "Belle, Mira, Mom",
+      "event": "had left her keys at school · waited for her mom ·  talked about a book (Meg). picked up Mira",
+      "note": ""
     },
     {
       "number": 4,
-      "chapter": "5",
-      "time": "Home",
-      "who": "Richard, Mira",
-      "event": "asked Richard (“Bookbag, pocketshoe” chant · hit his head ) · joke definition",
-      "note": ""
-    },
-    {
-      "number": 5,
-      "chapter": "1",
-      "time": "Home/April 6, 1979",
-      "who": "Mom, Miranda",
-      "event": "The $20,000 Pyramid postcard · contestant  · just like\nyou said·  letter request",
-      "note": "1. Her friend, “You,” could tell the future.\n“You” sent Miranda some notes.\nShe might not write the letter because “You” are gone and there is no one to give it to.\nGlossy red hair; a tiny woman."
-    },
-    {
-      "number": 6,
-      "chapter": "2",
-      "time": "Home/after Mom got the postcard",
-      "who": "Mom, Miranda, Richard",
-      "event": "21 days left, help mom practice, has to win",
-      "note": "Mom has a boyfriend named Richard.\nMom has been in a relationship with Richard for almost two years.\nRichard doesn't have a key to their home. Richard thinks keys are powerful.\nRichard is a handsome/tucked-in man.——Mr. Perfect"
-    },
-    {
-      "number": 7,
-      "chapter": "3",
-      "time": "at Belle's Market",
-      "who": "Belle, Miranda, Mom",
-      "event": "had left her keys at school · waited for her mom ·  talked about a book (Meg).",
-      "note": ""
-    },
-    {
-      "number": 8,
       "chapter": "3",
       "time": "On the way home",
       "who": "Mom, Miranda",
-      "event": "discussed the origin of Miranda's name\n(Miranda's feelings)",
+      "event": "discussed the origin来源 of Miranda's name\n(Tell Miranda's feelings if you can.)",
       "note": "Robbie B. is Miranda's schoolmate. His father is a prosecutor.\nShakespeare created the name Miranda. Mom wanted Miranda to have qualities such as humanism and compassion. The name stands for people's rights. The Miranda warnings stand for people's rights."
     },
     {
-      "number": 9,
+      "number": 5,
       "chapter": "3",
       "time": "In the stairwell",
       "who": "Mom, Miranda",
@@ -74,7 +42,47 @@
       "note": "“You” asked me to mention the key, which I probably won't.\nInference: “You” are dead.\nThere is a 20% chance Miranda will write the letter. Why does Miranda still think she may write it?\nIf Miranda ever writes the letter, she will tell “You” where the key is."
     },
     {
+      "number": 6,
+      "chapter": "5",
+      "time": "last September, on their corner",
+      "who": "L-man, Sal, Mira",
+      "event": "A strange man appeared· kids: Quack / Kicker · Mom: “the laughing man”",
+      "note": "1. Mira and Sal were scared, but they pretended not to be.  \n2. The laughing man slept under a mailbox. He chanted “Bookbag, Pocketshoe.” He hit his head with his fists. Maybe he was insane."
+    },
+    {
+      "number": 7,
+      "chapter": "7",
+      "time": "near the garage",
+      "who": "Sal, Mira, army jacket boy",
+      "event": "walking home · was punched by",
+      "note": ""
+    },
+    {
+      "number": 8,
+      "chapter": "5",
+      "time": "Home",
+      "who": "Richard, Mira",
+      "event": "asked Richard (“Book,bag, pocket,shoe” chant · hit his head ) · joke definition",
+      "note": ""
+    },
+    {
+      "number": 9,
+      "chapter": "1",
+      "time": "Home/On April 6, 1979",
+      "who": "Mom, Miranda",
+      "event": "The $20,000 Pyramid postcard · contestant  · just like\nyou said·  was required to write a letter, which she had no idea how to start",
+      "note": "1. Her friend, “You,” could tell the future.\n“You” sent Miranda some notes.\nShe might not write the letter because “You” are gone and there is no one to give it to.\nGlossy red hair; a tiny woman."
+    },
+    {
       "number": 10,
+      "chapter": "2",
+      "time": "Home/after Mom got the postcard",
+      "who": "Mom, Miranda, Richard",
+      "event": "21 days left, help mom practice, has to win",
+      "note": "Mom has a boyfriend named Richard.\nMom has been in a relationship with Richard for almost two years.\nRichard doesn't have a key to their home. Richard thinks keys are powerful.\nRichard is a handsome/tucked-in man.——Mr. Perfect"
+    },
+    {
+      "number": 11,
       "chapter": "4",
       "time": "home",
       "who": "Old folks, Lou, Mom, Mira",
@@ -82,12 +90,20 @@
       "note": "The rules of the Speed Round.\nTenant-meeting night—once a month—the old folks and Louisa come out of loyalty to Mom.\nMom is practicing for the Speed Round.\nPoor living conditions."
     },
     {
-      "number": 11,
+      "number": 12,
       "chapter": "6",
       "time": "Tonight, Home",
       "who": "Mira, Richard, Mom",
-      "event": "are practicing · is trying to figure out·",
+      "event": "are practicing · is trying to figure out",
       "note": "Mira is not sure what the true story is. But she thinks the whole ture story began the day Sal got punched."
+    },
+    {
+      "number": 13,
+      "chapter": "9",
+      "time": "home",
+      "who": "Mom, Richard, Miranda",
+      "event": "practice · hopes rise",
+      "note": "Miranda's family is not wealthy."
     }
   ]
 }
