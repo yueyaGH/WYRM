@@ -1,5 +1,5 @@
 {
-  "publishedAt": "2026-10-26T05:47:24.548Z",
+  "publishedAt": "2026-11-03T00:52:54.173Z",
   "events": [
     {
       "number": 1,
@@ -51,14 +51,6 @@
     },
     {
       "number": 7,
-      "chapter": "7",
-      "time": "near the garage",
-      "who": "Sal, Mira, army jacket boy",
-      "event": "walking home · was punched by",
-      "note": ""
-    },
-    {
-      "number": 8,
       "chapter": "5",
       "time": "Home",
       "who": "Richard, Mira",
@@ -66,7 +58,47 @@
       "note": ""
     },
     {
+      "number": 8,
+      "chapter": "7",
+      "time": "near the garage",
+      "who": "Sal, Mira, army jacket boy",
+      "event": "walking home · was punched by",
+      "note": ""
+    },
+    {
       "number": 9,
+      "chapter": "10",
+      "time": "on the way home",
+      "who": "Miranda, Marcus",
+      "event": "Mira met the street boy and asked him about the time.",
+      "note": "The street boy was smart——he could tell the time without looking at the watch.\nMarcus is good at Physics and Geography."
+    },
+    {
+      "number": 10,
+      "chapter": "11",
+      "time": "their apartment",
+      "who": "Mira, Sal",
+      "event": "Sal said he didn't want to be friends with Mira for a while.",
+      "note": ""
+    },
+    {
+      "number": 11,
+      "chapter": "11",
+      "time": "school",
+      "who": "Mira, Julia, Annemarie",
+      "event": "Mira and Annemarie went out for lunch in Jimmy's together because Julia said she wouldn't go out with Annemarie for the remainder of the week.",
+      "note": ""
+    },
+    {
+      "number": 12,
+      "chapter": "12",
+      "time": "Annemarie's home",
+      "who": "Mira, Annemarie, Ann's dad",
+      "event": "Mira went to Ann's home with her and met Ann's dad.",
+      "note": "Mira noticed \n1. there were a lot of Julia's pictures in Ann's room. \n2. Ann's dad works from home.\n3. Ann's dad only gave her plain water to drink. Ann didn't seem to notice. But why did Mira mention this?"
+    },
+    {
+      "number": 13,
       "chapter": "1",
       "time": "Home/On April 6, 1979",
       "who": "Mom, Miranda",
@@ -74,7 +106,7 @@
       "note": "1. Her friend, “You,” could tell the future.\n“You” sent Miranda some notes.\nShe might not write the letter because “You” are gone and there is no one to give it to.\nGlossy red hair; a tiny woman."
     },
     {
-      "number": 10,
+      "number": 14,
       "chapter": "2",
       "time": "Home/after Mom got the postcard",
       "who": "Mom, Miranda, Richard",
@@ -82,7 +114,7 @@
       "note": "Mom has a boyfriend named Richard.\nMom has been in a relationship with Richard for almost two years.\nRichard doesn't have a key to their home. Richard thinks keys are powerful.\nRichard is a handsome/tucked-in man.——Mr. Perfect"
     },
     {
-      "number": 11,
+      "number": 15,
       "chapter": "4",
       "time": "home",
       "who": "Old folks, Lou, Mom, Mira",
@@ -90,7 +122,7 @@
       "note": "The rules of the Speed Round.\nTenant-meeting night—once a month—the old folks and Louisa come out of loyalty to Mom.\nMom is practicing for the Speed Round.\nPoor living conditions."
     },
     {
-      "number": 12,
+      "number": 16,
       "chapter": "6",
       "time": "Tonight, Home",
       "who": "Mira, Richard, Mom",
@@ -98,12 +130,36 @@
       "note": "Mira is not sure what the true story is. But she thinks the whole ture story began the day Sal got punched."
     },
     {
-      "number": 13,
+      "number": 17,
       "chapter": "9",
       "time": "home",
       "who": "Mom, Richard, Miranda",
       "event": "practice · hopes rise",
       "note": "Miranda's family is not wealthy."
+    },
+    {
+      "number": 18,
+      "chapter": "11",
+      "time": "home",
+      "who": "Mira, Sal",
+      "event": "Sal said he didn't want to be friends with Mira for a while.",
+      "note": ""
+    },
+    {
+      "number": 19,
+      "chapter": "11",
+      "time": "at school->Jimmy's",
+      "who": "Mira, Julia, Annemarie",
+      "event": "Mira and Annemarie went out for lunch in Jimmy's together because Julia said she wouldn't go out with Annemarie for the remainder of the week.",
+      "note": ""
+    },
+    {
+      "number": 20,
+      "chapter": "12",
+      "time": "Annemarie's home",
+      "who": "Mira, Annemarie, Ann's dad",
+      "event": "Mira went to Ann's home with her and met Ann's dad.",
+      "note": "Mira noticed \n1. there were a lot of Julia's pictures in Ann's room. \n2. Ann's dad works from home.\n3. Ann's dad only gave her plain water to drink. Ann didn't seem to notice. But why did Mira mention this?"
     }
   ]
 }
