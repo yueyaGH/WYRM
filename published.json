@@ -1,5 +1,5 @@
 {
-  "publishedAt": "2026-11-03T00:52:54.173Z",
+  "publishedAt": "2026-11-10T11:29:53.051Z",
   "events": [
     {
       "number": 1,
@@ -84,7 +84,7 @@
     {
       "number": 11,
       "chapter": "11",
-      "time": "school",
+      "time": "school, on Wednesday",
       "who": "Mira, Julia, Annemarie",
       "event": "Mira and Annemarie went out for lunch in Jimmy's together because Julia said she wouldn't go out with Annemarie for the remainder of the week.",
       "note": ""
@@ -99,6 +99,38 @@
     },
     {
       "number": 13,
+      "chapter": "15",
+      "time": "at Jimmy's, the rest of that week",
+      "who": "Mira, Colin, Ann, Jimmy",
+      "event": "Colin, Mira, and Ann worked together at Jimmy’s during their second week there.",
+      "note": ""
+    },
+    {
+      "number": 14,
+      "chapter": "16",
+      "time": "home, that Friday",
+      "who": "Mira, mom",
+      "event": "Mira found the door was unlocked. Mom found the key in the nozzle was missing.",
+      "note": "Nothing was missing. \nWhy ..."
+    },
+    {
+      "number": 15,
+      "chapter": "17",
+      "time": "home, next Monday",
+      "who": "Mira, mom",
+      "event": "Mira got a note from You, which freaked Mira and Mom.",
+      "note": "Somewhere in my head a tiny bell started singing.——what was it?"
+    },
+    {
+      "number": 16,
+      "chapter": "18",
+      "time": "at Jimmy's",
+      "who": "Jimmy, Colin, Mira, Ann",
+      "event": "Colin, Mira, Ann worked at Jimmy's for the second week.",
+      "note": "personalities——"
+    },
+    {
+      "number": 17,
       "chapter": "1",
       "time": "Home/On April 6, 1979",
       "who": "Mom, Miranda",
@@ -106,7 +138,7 @@
       "note": "1. Her friend, “You,” could tell the future.\n“You” sent Miranda some notes.\nShe might not write the letter because “You” are gone and there is no one to give it to.\nGlossy red hair; a tiny woman."
     },
     {
-      "number": 14,
+      "number": 18,
       "chapter": "2",
       "time": "Home/after Mom got the postcard",
       "who": "Mom, Miranda, Richard",
@@ -114,7 +146,7 @@
       "note": "Mom has a boyfriend named Richard.\nMom has been in a relationship with Richard for almost two years.\nRichard doesn't have a key to their home. Richard thinks keys are powerful.\nRichard is a handsome/tucked-in man.——Mr. Perfect"
     },
     {
-      "number": 15,
+      "number": 19,
       "chapter": "4",
       "time": "home",
       "who": "Old folks, Lou, Mom, Mira",
@@ -122,44 +154,28 @@
       "note": "The rules of the Speed Round.\nTenant-meeting night—once a month—the old folks and Louisa come out of loyalty to Mom.\nMom is practicing for the Speed Round.\nPoor living conditions."
     },
     {
-      "number": 16,
+      "number": 20,
       "chapter": "6",
       "time": "Tonight, Home",
       "who": "Mira, Richard, Mom",
-      "event": "are practicing · is trying to figure out",
+      "event": "Richard is helping mom practicing · Mira is trying to figure out ...",
       "note": "Mira is not sure what the true story is. But she thinks the whole ture story began the day Sal got punched."
     },
     {
-      "number": 17,
+      "number": 21,
       "chapter": "9",
       "time": "home",
       "who": "Mom, Richard, Miranda",
-      "event": "practice · hopes rise",
+      "event": "practice · their hopes rise",
       "note": "Miranda's family is not wealthy."
     },
     {
-      "number": 18,
-      "chapter": "11",
-      "time": "home",
-      "who": "Mira, Sal",
-      "event": "Sal said he didn't want to be friends with Mira for a while.",
+      "number": 22,
+      "chapter": "13",
+      "time": "home/two more weeks left",
+      "who": "Mom, Mira, Richard",
+      "event": "Mom is getting very good at the speed round. Richard and Mira are helping mom with the Winner's Circle. Mom only gets 4 out of 6.",
       "note": ""
-    },
-    {
-      "number": 19,
-      "chapter": "11",
-      "time": "at school->Jimmy's",
-      "who": "Mira, Julia, Annemarie",
-      "event": "Mira and Annemarie went out for lunch in Jimmy's together because Julia said she wouldn't go out with Annemarie for the remainder of the week.",
-      "note": ""
-    },
-    {
-      "number": 20,
-      "chapter": "12",
-      "time": "Annemarie's home",
-      "who": "Mira, Annemarie, Ann's dad",
-      "event": "Mira went to Ann's home with her and met Ann's dad.",
-      "note": "Mira noticed \n1. there were a lot of Julia's pictures in Ann's room. \n2. Ann's dad works from home.\n3. Ann's dad only gave her plain water to drink. Ann didn't seem to notice. But why did Mira mention this?"
     }
   ]
 }
