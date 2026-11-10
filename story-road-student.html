@@ -85,7 +85,7 @@
     <p class="footnote" data-page-node-id="7vVUmRvy1lcEdIpNYEEhln">The order on the road shows time. Write dates, chapter numbers, places, or questions only when they help you.</p>
 
     <section class="vocabulary-module" aria-label="Chapter vocabulary lists">
-      <div class="vocabulary-grid">
+      <div id="vocabulary-grid" class="vocabulary-grid">
         <article class="vocabulary-chapter"><h3>Ch1</h3><div class="vocabulary-words">
           <span class="vocabulary-word">contestant</span><span class="vocabulary-word">barrette</span><span class="vocabulary-word">optional</span><span class="vocabulary-word">glossy</span><span class="vocabulary-word">obstruct</span><span class="vocabulary-word">scrawl</span><span class="vocabulary-word">proof</span><span class="vocabulary-word">nag</span>
         </div></article>
@@ -113,6 +113,33 @@
         <article class="vocabulary-chapter"><h3>Ch9</h3><div class="vocabulary-words">
           <span class="vocabulary-word">peel off</span><span class="vocabulary-word">nonexistent</span><span class="vocabulary-word">grudge</span><span class="vocabulary-word">blame</span><span class="vocabulary-word">spare</span><span class="vocabulary-word">scribble</span><span class="vocabulary-word">official</span>
         </div></article>
+        <article class="vocabulary-chapter"><h3>Ch10</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">conference</span><span class="vocabulary-word">mental</span><span class="vocabulary-word">conversation</span><span class="vocabulary-word">panic</span><span class="vocabulary-word">tingle</span><span class="vocabulary-word">hover</span><span class="vocabulary-word">plus</span><span class="vocabulary-word">guilt</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch11</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">dribble</span><span class="vocabulary-word">rust</span><span class="vocabulary-word">unpredictable</span><span class="vocabulary-word">hexagon</span><span class="vocabulary-word">treaty</span><span class="vocabulary-word">squeal</span><span class="vocabulary-word">torture</span><span class="vocabulary-word">giggle</span><span class="vocabulary-word">self-portrait</span><span class="vocabulary-word">construction</span><span class="vocabulary-word">satin</span><span class="vocabulary-word">velvet</span><span class="vocabulary-word">remainder</span><span class="vocabulary-word">stark naked</span><span class="vocabulary-word">register</span><span class="vocabulary-word">scab</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch12</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">involve</span><span class="vocabulary-word">slap</span><span class="vocabulary-word">bedspread</span><span class="vocabulary-word">plain</span><span class="vocabulary-word">spongy</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch13</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">category</span><span class="vocabulary-word">prolong</span><span class="vocabulary-word">warp</span><span class="vocabulary-word">reverse</span><span class="vocabulary-word">panel</span><span class="vocabulary-word">reveal</span><span class="vocabulary-word">puffy</span><span class="vocabulary-word">fluffy</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch14</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">scale</span><span class="vocabulary-word">frustrated</span><span class="vocabulary-word">complicated</span><span class="vocabulary-word">foil</span><span class="vocabulary-word">pathetic</span><span class="vocabulary-word">basically</span><span class="vocabulary-word">regular</span><span class="vocabulary-word">runner</span><span class="vocabulary-word">attendance</span><span class="vocabulary-word">professional</span><span class="vocabulary-word">fish out</span><span class="vocabulary-word">appointment</span><span class="vocabulary-word">equivalent</span><span class="vocabulary-word">grimly</span><span class="vocabulary-word">revolve</span><span class="vocabulary-word">reject</span><span class="vocabulary-word">assumption</span><span class="vocabulary-word">awhile</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch15</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">convince</span><span class="vocabulary-word">aside from</span><span class="vocabulary-word">greasy</span><span class="vocabulary-word">off-limits</span><span class="vocabulary-word">oblivious</span><span class="vocabulary-word">disdain</span><span class="vocabulary-word">adjust</span><span class="vocabulary-word">turn out</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch16</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">wedge</span><span class="vocabulary-word">blare</span><span class="vocabulary-word">commercial</span><span class="vocabulary-word">out of place</span><span class="vocabulary-word">specifically</span><span class="vocabulary-word">every once in a while</span><span class="vocabulary-word">unlocked</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch17</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">stiff</span><span class="vocabulary-word">favor</span><span class="vocabulary-word">freaked</span><span class="vocabulary-word">mention</span><span class="vocabulary-word">backward</span>
+        </div></article>
+        <article class="vocabulary-chapter"><h3>Ch18</h3><div class="vocabulary-words">
+          <span class="vocabulary-word">serve</span><span class="vocabulary-word">stretch</span><span class="vocabulary-word">saw</span><span class="vocabulary-word">insert</span><span class="vocabulary-word">disaster</span><span class="vocabulary-word">unappealing</span><span class="vocabulary-word">shredded</span><span class="vocabulary-word">apron</span><span class="vocabulary-word">goofball</span><span class="vocabulary-word">in charge of</span>
+        </div></article>
       </div>
     </section>
   </main>
@@ -123,6 +150,7 @@
     const errorEl = document.getElementById('error');
     const emptyEl = document.getElementById('empty');
     const metaEl = document.getElementById('published-meta');
+    const vocabularyGrid = document.getElementById('vocabulary-grid');
 
     function escapeHtml(text) {
       return String(text ?? '').replace(/[&<>"']/g, (c) => ({
@@ -184,8 +212,33 @@
       return article;
     }
 
+    function renderVocabulary(vocabulary) {
+      // Older published files have no vocabulary field, so the built-in list
+      // remains as a readable fallback. New teacher publications replace it.
+      if (!Array.isArray(vocabulary) || vocabulary.length === 0) return;
+      vocabularyGrid.replaceChildren();
+      vocabulary.forEach((chapter) => {
+        if (!chapter?.chapter || !Array.isArray(chapter.words) || chapter.words.length === 0) return;
+        const article = document.createElement('article');
+        article.className = 'vocabulary-chapter';
+        const title = document.createElement('h3');
+        title.textContent = chapter.chapter;
+        const words = document.createElement('div');
+        words.className = 'vocabulary-words';
+        chapter.words.filter(Boolean).forEach((word) => {
+          const chip = document.createElement('span');
+          chip.className = 'vocabulary-word';
+          chip.textContent = word;
+          words.append(chip);
+        });
+        article.append(title, words);
+        vocabularyGrid.append(article);
+      });
+    }
+
     function render(data) {
       eventsEl.innerHTML = '';
+      renderVocabulary(data?.vocabulary);
       const events = Array.isArray(data?.events) ? data.events : [];
       if (events.length === 0) {
         emptyEl.hidden = false;
